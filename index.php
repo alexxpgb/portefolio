@@ -71,7 +71,7 @@ $projects = $projects_query->fetchAll(PDO::FETCH_ASSOC);
         <?php endforeach; ?>
     </ul>
 
-    <p><a href="pages/login.php">Se connecter</a></p>
-    <p><a href="pages/register.php">S'inscrire</a></p>
+    <p><a href="login.php">Se connecter</a></p>
+    <p><a href="register.php">S'inscrire</a></p>
 </body>
 </html>
